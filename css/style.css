@@ -560,3 +560,130 @@ footer-2 section {
 		background-color: #9c7726;
 	}
 }
+
+.container-fluid {
+	padding-bottom: 10px;
+	background-color: #9c7726;
+}
+
+.size__foto {
+
+	background-size: contain;
+
+
+}
+
+.font {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	text-align: center;
+	font-family: 'Quicksand',sans-serif;
+	font-weight: 800;
+}
+
+.texto__nos {
+	margin: auto;
+	padding-top: 15px;
+	width: 80%;
+	height: 100px;
+	background-color: #d49b28;
+	border-radius: 9px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.contact {
+	margin: auto;
+	display: flex;
+	width: 50%;
+	height: 120px;
+	background-color: #684906;
+	border-radius: 9px;
+	justify-content: space-evenly;
+	flex-direction: column;
+	margin-bottom: 5px;
+	font-size: 0.3rem;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact p {
+	font-size: 1.4rem;
+	color: antiquewhite;
+}
+
+.btn2 {
+	display: flex;
+	justify-content: space-evenly;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+	margin-bottom: 15px;
+}
+
+h6 {
+	font-size: 3rem;
+}
+.contact__contact {
+	margin-top: 20px ;
+	width: 50%;
+	border-radius: 7px;
+	color: #000000;
+	height: 50px;
+	text-align: center;
+	font-size: 1.7rem;
+	font-family: "Roboto", sans-serif;
+	font-weight: bolder;
+}
+form#contacto {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: "Maven Pro", sans-serif;
+}
+
+legend { 
+	text-align: center;
+	font-weight: 900;
+
+}
+
+fieldset {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.backgr__compras {
+	background-image: url(../img/fondo/fondo5.jpg);
+}
+#compras img {
+	width: 300px;
+	height: 150px;
+	background-size: contain;
+	margin-left:30px;
+	margin-top: 30px;
+}
+#compras div {
+	text-align: center;
+}
+
+.shop {
+	
+	width: 50px;
+	height: 50px;
+}
+
+.text__center {
+	text-align: center;
+}
