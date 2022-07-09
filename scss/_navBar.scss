@@ -1,0 +1,77 @@
+// Nesting
+
+#navegacion {
+    background-color: $mainColor;
+ 
+      header {
+        .head {
+            
+                grid-area: head;
+        }
+    }
+    ul{
+        display: flex;
+        
+        li{
+            display:flex;
+            align-content:space-around;
+        a{
+            display: flex;
+            flex-direction: column-reverse;
+            
+        p {
+            font-style: $secondaryFont;
+            font-weight: $bolder;
+        }    
+        }
+        }
+    }
+}
+
+
+.fotos {
+    background-image: url(../img/fondo/fondo5.jpg);
+    background-size: contain;
+    grid-area: fotos;
+    margin-top: 75px;
+    height: 300px;
+
+    section{
+    p{
+        font-size: $textBg;
+        font-weight: $bolder;
+        font-style: $secondaryFont;
+        
+    }
+}
+}
+
+
+@keyframes anime {
+    0% {
+        background-color: rgb(250, 220, 157)
+    }
+
+    25% {
+        background-color: #eccd66fb
+    }
+
+    75% {
+        background-color: #e6b759fb
+    }
+
+    100% {
+        background-color: #d49b28
+    }
+}
+
+.animename {
+    animation-name: anime;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
