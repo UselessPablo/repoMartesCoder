@@ -2,7 +2,7 @@
 
 #navegacion {
     background-color: $navColor;
- 
+
       header {
         .head {
             
@@ -81,7 +81,7 @@
     justify-content: center;
 }
 //nosotros//
-
+}
 nav2 {
     
     background-color: $navColor;
@@ -121,9 +121,9 @@ nav2 {
 }
 //productos
 #navegacion2{
-    background-color: $mainColor;
+    background-color: $navColor;
     nav{
-        background-color: $navColor;
+        background-color: $mainColor;
     }
 }
 #productos {
@@ -132,6 +132,7 @@ nav2 {
         max-height: 250px;
     }
 }
+
 .form {
     section2 {
         p {
@@ -156,5 +157,4 @@ nav2 {
 }
 main{
     background-color: $mainColor;
-}
 }

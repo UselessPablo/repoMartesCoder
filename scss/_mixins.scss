@@ -1,4 +1,27 @@
 // extends
+
+ul{
+    display: flex;
+    
+    li{
+        display:flex;
+        align-content:space-around;
+        
+        a{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    p {
+        font-style: $secondaryFont;
+        font-weight: $bolder;
+    }    
+    }
+    }
+}
+.ul__class {
+    @extend ul
+}
+
 .btn-more {
     width: 100px;
     height: 30px;
@@ -67,27 +90,4 @@ $paleta:(
 //math
 
 
-//condicionales
-.icon-lang{
-    width: 50px;
-    height: 50px;
-    background-size: contain;
-    background-position: center;
-    @if $lang==es{background-image: url(..img/logo/instagram.jpg) }
-}
-//bucles
-@for $i from 1 through 6 {
-    .text-#($i){
-        font-size: .25em *$i;
-    }
-}
-@each $icono in facebook, instagram, youtube {
-    .#{$icono}-icon {
-        background-image: url(../img/footer/#{$icono}.png);
-        width: 30px;
-        height: 30px;
-        background-size: 100%;
-        list-style: none;
-        margin-right: 6px;
-    }
-}
+//*condicionales

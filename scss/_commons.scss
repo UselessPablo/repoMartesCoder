@@ -7,7 +7,8 @@ html {
 	font-size: 82.5%;
 }
 
-h1, h6 {
+h1{
+	background-color: $mainColor;
 	font-family: $thirdFont;
 	text-align: center;
 	padding-bottom: 7px;
@@ -26,6 +27,7 @@ h2 {
 }
 
 body {
+	background-color: $secondaryColor;
 	margin: 0;
 	padding: 0;
 }
