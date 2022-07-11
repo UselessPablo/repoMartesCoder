@@ -1,7 +1,7 @@
 // Nesting
 
 #navegacion {
-    background-color: $mainColor;
+    background-color: $navColor;
  
       header {
         .head {
@@ -9,25 +9,25 @@
                 grid-area: head;
         }
     }
-    ul{
+
+
+    ul {
+    display: flex;
+    
+    li{
+        display:flex;
+        align-content:space-around;
+    a{
         display: flex;
+        flex-direction: column-reverse;
         
-        li{
-            display:flex;
-            align-content:space-around;
-        a{
-            display: flex;
-            flex-direction: column-reverse;
-            
-        p {
-            font-style: $secondaryFont;
-            font-weight: $bolder;
-        }    
-        }
-        }
+    p {
+        font-style: $secondaryFont;
+        font-weight: $bolder;
+    }    
+    }
     }
 }
-
 
 .fotos {
     background-image: url(../img/fondo/fondo5.jpg);
@@ -37,8 +37,13 @@
     height: 300px;
 
     section{
-    p{
-        font-size: $textBg;
+        h2 {
+            margin-top: 15px;
+            text-align: center;
+        }
+        p{
+        text-align: center;
+        font-size: $textXb;
         font-weight: $bolder;
         font-style: $secondaryFont;
         
@@ -74,4 +79,82 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+//nosotros//
+
+nav2 {
+    
+    background-color: $navColor;
+    
+    a {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 15px;
+    }
+  
+}
+.texto__nos {
+    p {
+        margin-top: 15px;
+        text-align: center;
+        font-family: $secondaryFont;
+        font-size: $textMd;
+    }
+}
+.contact {
+    p {
+        margin-top: 15px;
+        text-align: center;
+        font-family: $secondaryFont;
+        font-size: $textMd;
+    }
+}
+.btn2 {
+    text-align: center;
+    button {
+        border-radius: $borderRad;
+        background-color: $keyColor;
+        border: none;
+        margin-bottom: 20px;
+
+    }
+}
+//productos
+#navegacion2{
+    background-color: $mainColor;
+    nav{
+        background-color: $navColor;
+    }
+}
+#productos {
+    img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+.form {
+    section2 {
+        p {
+            font-family: $secondaryFont;
+            font-family: $bolder;
+        }
+    form2{
+        justify-content: center;
+            display: flex;
+    }
+    }
+}
+//contacto
+.contact__contact {
+    
+        margin-top: 20px;  
+        margin-bottom: 25px;
+        p{
+        font-family: $primaryFont;
+        font-size: $textBg;
+    }
+}
+main{
+    background-color: $mainColor;
+}
 }
