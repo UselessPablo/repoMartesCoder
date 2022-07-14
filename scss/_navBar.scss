@@ -3,96 +3,79 @@
 #navegacion {
     background-color: $navColor;
 
-      header {
+    header {
         .head {
-            
-                grid-area: head;
+
+            grid-area: head;
         }
     }
 
+    nav {
+        box-shadow: $shadow;
+        border-radius: $borderRad;
+    }
+
+    .fotos {
+        img {
+            max-width: 170px;
+        }
+    }
 
     ul {
-    display: flex;
-    
-    li{
-        display:flex;
-        align-content:space-around;
-    a{
         display: flex;
-        flex-direction: column-reverse;
-        
-    p {
-        font-style: $secondaryFont;
-        font-weight: $bolder;
-    }    
-    }
-    }
-}
-
-.fotos {
-    background-image: url(../img/fondo/fondo5.jpg);
-    background-size: contain;
-    grid-area: fotos;
-    margin-top: 75px;
-    height: 300px;
-
-    section{
-        h2 {
-            margin-top: 15px;
-            text-align: center;
+        li {
+            display: flex;
+            align-content: space-around;
+            a {
+                @include disp-flex-col;
+                p {
+                    font-style: $secondaryFont;
+                    font-weight: $bolder;
+                }
+            }
         }
-        p{
-        text-align: center;
-        font-size: $textXb;
-        font-weight: $bolder;
-        font-style: $secondaryFont;
-        
-    }
-}
-}
 
-
-@keyframes anime {
-    0% {
-        background-color: rgb(250, 220, 157)
     }
 
-    25% {
-        background-color: #eccd66fb
+    @keyframes anime {
+        0% {
+            background-color: map-get($map: $paleta, $key: 'uno');
+        }
+        25% {
+            background-color: map-get($map: $paleta, $key: 'dos');
+        }
+        75% {
+            background-color: map-get($map: $paleta, $key: 'tres');
+        }
+        100% {
+            background-color: map-get($map: $paleta, $key: 'cuatro');
+        }
     }
-
-    75% {
-        background-color: #e6b759fb
-    }
-
-    100% {
-        background-color: #d49b28
-    }
-}
-
-.animename {
-    animation-name: anime;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    animation-duration: 6s;
-    animation-delay: 0s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-//nosotros//
-}
-nav2 {
-    
-    background-color: $navColor;
-    
-    a {
+    .animename {
+        animation-name: anime;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-duration: 6s;
+        animation-delay: 0s;
         display: flex;
-        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        max-width: fit-content;
+    }
+    //nosotros//
+}
+
+nav2 {
+
+    background-color: $navColor;
+
+    a {
+        @include disp-flex-col;
         margin-top: 15px;
     }
-  
+
 }
+
 .texto__nos {
     p {
         margin-top: 15px;
@@ -101,6 +84,7 @@ nav2 {
         font-size: $textMd;
     }
 }
+
 .contact {
     p {
         margin-top: 15px;
@@ -109,23 +93,27 @@ nav2 {
         font-size: $textMd;
     }
 }
+
 .btn2 {
     text-align: center;
+
     button {
         border-radius: $borderRad;
         background-color: $keyColor;
         border: none;
         margin-bottom: 20px;
-
     }
 }
+
 //productos
-#navegacion2{
+#navegacion2 {
     background-color: $navColor;
-    nav{
+
+    nav {
         background-color: $mainColor;
     }
 }
+
 #productos {
     img {
         max-width: 250px;
@@ -139,22 +127,24 @@ nav2 {
             font-family: $secondaryFont;
             font-family: $bolder;
         }
-    form2{
-        justify-content: center;
+        form2 {
+            justify-content: center;
             display: flex;
-    }
+        }
     }
 }
+
 //contacto
 .contact__contact {
-    
-        margin-top: 20px;  
-        margin-bottom: 25px;
-        p{
+
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+    p {
         font-family: $primaryFont;
         font-size: $textBg;
     }
 }
-main{
+main {
     background-color: $mainColor;
 }

@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Maven+Pro:wght@400;500&family=Quicksand:wght@400;700&family=Roboto:wght@100&display=swap");
+ul, .ul__class {
+  display: flex; }
+  ul li, .ul__class li {
+    display: flex;
+    align-content: space-around; }
+    ul li a, .ul__class li a {
+      display: flex;
+      flex-direction: column-reverse; }
+      ul li a p, .ul__class li a p {
+        font-style: "Quicksand", sans-serif;
+        font-weight: 900; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -7,6 +19,8 @@ html {
   font-size: 82.5%; }
 
 h1 {
+  box-shadow: 8px 8px 8px 8px rgba(97, 84, 59, 0.7);
+  border-radius: 10px;
   background-color: #fae1ab;
   font-family: "Lobster", sans-serif;
   text-align: center;
@@ -21,7 +35,8 @@ h2 {
   padding-bottom: 55px;
   font-family: "Quicksand", sans-serif;
   font-size: "1.3rem";
-  font-weight: 900; }
+  font-weight: 900;
+  text-align: center; }
 
 body {
   background-color: rgba(240, 198, 83, 0.966);
@@ -39,51 +54,21 @@ a {
 nav {
   background-color: #fae1ab; }
 
-ul, .ul__class {
-  display: flex; }
-  ul li, .ul__class li {
-    display: flex;
-    align-content: space-around; }
-    ul li a, .ul__class li a {
-      display: flex;
-      flex-direction: column-reverse; }
-      ul li a p, .ul__class li a p {
-        font-style: "Quicksand", sans-serif;
-        font-weight: 900; }
-
-.btn-more, .btn-rounded {
-  width: 100px;
-  height: 30px;
-  border: none;
-  background: linear-gradient(to bottom, brown, red);
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .btn-more:hover, .btn-rounded:hover {
-    background-color: balck;
-    cursor: pointer; }
-
-.btn-rounded {
-  border-radius: 4px; }
-
-h1 {
-  font-size: 2em;
-  line-height: 2.4em;
-  color: black;
-  padding: 4px; }
-
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 p {
-  text-align: center; }
+  text-align: center;
+  font-size: "1.8rem";
+  font-style: "Maven Pro", sans-serif;
+  font-weight: 600; }
 
 #navegacion {
   background-color: rgba(255, 202, 88, 0.884); }
   #navegacion header .head {
     grid-area: head; }
+  #navegacion nav {
+    box-shadow: 8px 8px 8px 8px rgba(97, 84, 59, 0.7);
+    border-radius: 10px; }
+  #navegacion .fotos img {
+    max-width: 170px; }
   #navegacion ul, #navegacion .ul__class {
     display: flex; }
     #navegacion ul li, #navegacion .ul__class li {
@@ -91,34 +76,21 @@ p {
       align-content: space-around; }
       #navegacion ul li a, #navegacion .ul__class li a {
         display: flex;
-        flex-direction: column-reverse; }
+        flex-direction: column-reverse;
+        justify-content: center; }
         #navegacion ul li a p, #navegacion .ul__class li a p {
           font-style: "Quicksand", sans-serif;
           font-weight: 900; }
-  #navegacion .fotos {
-    background-image: url(../img/fondo/fondo5.jpg);
-    background-size: contain;
-    grid-area: fotos;
-    margin-top: 75px;
-    height: 300px; }
-    #navegacion .fotos section h2 {
-      margin-top: 15px;
-      text-align: center; }
-    #navegacion .fotos section p {
-      text-align: center;
-      font-size: "2.5rem";
-      font-weight: 900;
-      font-style: "Quicksand", sans-serif; }
 
 @keyframes anime {
   0% {
-    background-color: #fadc9d; }
+    background-color: #fae1ab; }
   25% {
-    background-color: #eccd66fb; }
+    background-color: #f3cc78; }
   75% {
-    background-color: #e6b759fb; }
+    background-color: #ddb765; }
   100% {
-    background-color: #d49b28; } }
+    background-color: #c59c42; } }
   #navegacion .animename {
     animation-name: anime;
     animation-iteration-count: infinite;
@@ -127,13 +99,15 @@ p {
     animation-delay: 0s;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    max-width: fit-content; }
 
 nav2 {
   background-color: rgba(255, 202, 88, 0.884); }
   nav2 a {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
     margin-top: 15px; }
 
 .texto__nos p {
@@ -215,7 +189,6 @@ footer {
       padding: 5px 5px; }
 
 .iframe {
-  margin-top: 100px;
   display: flex;
   background-color: rgba(97, 84, 59, 0.829);
   grid-area: iframe;
@@ -224,5 +197,6 @@ footer {
 
 section form {
   font-family: "Quicksand", sans-serif;
-  grid-area: form;
-  display: flex; }
+  max-height: 40px;
+  display: flex;
+  align-items: center; }

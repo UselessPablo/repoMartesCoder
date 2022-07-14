@@ -7,7 +7,9 @@ html {
 	font-size: 82.5%;
 }
 
-h1{
+h1 {
+	box-shadow: $shadow;
+	border-radius: $borderRad;
 	background-color: $mainColor;
 	font-family: $thirdFont;
 	text-align: center;
@@ -24,6 +26,7 @@ h2 {
 	font-family: $secondaryFont;
 	font-size: $textMd;
 	font-weight: $bolder;
+	text-align: center;
 }
 
 body {
@@ -31,6 +34,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
 a {
 	color: $black;
 	text-decoration: none;
@@ -39,6 +43,14 @@ a {
 	cursor: pointer;
 	font-family: $primaryFont;
 }
-nav{
-    background-color: $mainColor;
- }
+
+nav {
+	background-color: $mainColor;
+}
+
+p {
+	text-align: center;
+	font-size: $textBg;
+	font-style: $primaryFont;
+	font-weight: $bold;
+}

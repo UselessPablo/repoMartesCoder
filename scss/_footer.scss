@@ -1,35 +1,35 @@
-
 footer {
 
-	grid-area: footer;
-	display: flex;
-	background-color: $mainColor;
-	align-items: center;
-	border-radius: $borderRad;
-	justify-content: center;
-	height: 150px;
-    
+    grid-area: footer;
+    display: flex;
+    background-color: $mainColor;
+    align-items: center;
+    border-radius: $borderRad;
+    justify-content: center;
+    height: 150px;
+
     section {
-        
+
         display: flex;
         align-content: space-around;
-    
-        .hov{
-        &:hover {
-            transform: translateY(2.3px);
-            transition: 0.2s;
+
+        .hov {
+            &:hover {
+                transform: translateY(2.3px);
+                transition: 0.2s;
+            }
+
         }
-        
+
+        p {
+            font-size: $textMd;
+            color: $black;
+            font-family: $secondaryFont;
+            font-weight: $bolder;
+            padding: 10px 5px 5px 5px;
+        }
     }
 
-    p {
-        font-size: $textMd;
-	color: $black;
-	font-family: $secondaryFont;
-	font-weight: $bolder;
-	padding: 10px 5px 5px 5px;
-    }
-    }
     .div__footeritems {
         display: flex;
         width: 70px;
@@ -38,24 +38,27 @@ footer {
         padding-top: 10px;
         padding-bottom: 20px;
         align-items: center;
-        
+
         p {
             padding: 5px 5px;
         }
     }
 }
-    .iframe {
-        margin-top: 100px;
-        display: flex;
-        background-color: $keyColor;
-        grid-area: iframe;
-        justify-content: center;
-        flex-direction: flex-end;
-    
+
+.iframe {
+
+    display: flex;
+    background-color: $keyColor;
+    grid-area: iframe;
+    justify-content: center;
+    flex-direction: flex-end;
+
 }
 
-    section form{
-        font-family: $secondaryFont;
-	grid-area: form;
-	display: flex;
+section form {
+    font-family: $secondaryFont;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+
 }
