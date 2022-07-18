@@ -5,6 +5,7 @@
 
   
     nav {
+        background-color: $navColor;
         box-shadow: $shadow;
         border-radius: $borderRad;
     }
@@ -54,23 +55,13 @@
     //nosotros//
 
 
-nav2 {
-
-    background-color: $navColor;
-
-    a {
-        @include disp-flex-col;
-        margin-top: 15px;
-    }
-
-}
 
 .texto__nos {
     p {
         margin-top: 15px;
         text-align: center;
         font-family: $secondaryFont;
-        font-size: $textMd;
+        font-size: $textXb;
     }
 }
 
@@ -79,53 +70,55 @@ nav2 {
         margin-top: 15px;
         text-align: center;
         font-family: $secondaryFont;
-        font-size: $textMd;
+        font-size: $textBg;
     }
 }
 
 .btn2 {
     text-align: center;
     border-radius: $borderRad;
-    background-color: $keyColor;
     width: auto;
-    
+    border-style: none;
    button {
         border-radius: $borderRad;
         background-color: $keyColor;
         border: none;
-        
+        width: auto;
     
     }
 }
 
 //productos
-#navegacion2 {
-    background-color: $navColor;
-
-    nav {
-        background-color: $mainColor;
-    }
-}
 
 #productos {
+    figure {
+        
     img {
+    
         max-width: 250px;
         max-height: 250px;
+    
     }
+    figcaption {
+        
+            font-size: $textXb;
+        
+    }
+}
+}
+.form2 {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+section2 {
+    justify-content: center;
+
+    p{
+        font-size:$textXb;
+    }
+}
 }
 
-.form {
-    section2 {
-        p {
-            font-family: $secondaryFont;
-            font-family: $bolder;
-        }
-        form2 {
-            justify-content: center;
-            display: flex;
-        }
-    }
-}
 
 //contacto
 .contact__contact {

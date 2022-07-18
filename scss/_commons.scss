@@ -30,12 +30,13 @@ h2 {
 }
 h3 {
 	color: $black;
-	margin-top: 15px;
+	margin-top: 25px;
 	padding-bottom: 55px;
 	font-family: $secondaryFont;
 	font-size: $textMd;
 	font-weight: $bolder;
 	text-align: center;
+	background-color: $secondaryColor;
 }
 body {
 	background-color: $secondaryColor;
@@ -58,7 +59,7 @@ nav {
 
 p {
 	text-align: center;
-	font-size: $textBg;
+	font-size: $textXb;
 	font-style: $primaryFont;
 	font-weight: $bold;
 }
