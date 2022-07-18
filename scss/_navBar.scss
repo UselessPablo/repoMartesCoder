@@ -3,13 +3,7 @@
 #navegacion {
     background-color: $navColor;
 
-    header {
-        .head {
-
-            grid-area: head;
-        }
-    }
-
+  
     nav {
         box-shadow: $shadow;
         border-radius: $borderRad;
@@ -17,7 +11,11 @@
 
     .fotos {
         img {
-            max-width: 170px;
+            max-width: 140px;
+            background-size: contain;
+            height: 100px;
+            display: flex;
+            justify-content: space-evenly;
         }
     }
 
@@ -51,19 +49,10 @@
             background-color: map-get($map: $paleta, $key: 'cuatro');
         }
     }
-    .animename {
-        animation-name: anime;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease;
-        animation-duration: 6s;
-        animation-delay: 0s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: fit-content;
-    }
-    //nosotros//
 }
+
+    //nosotros//
+
 
 nav2 {
 
@@ -96,12 +85,16 @@ nav2 {
 
 .btn2 {
     text-align: center;
-
-    button {
+    border-radius: $borderRad;
+    background-color: $keyColor;
+    width: auto;
+    
+   button {
         border-radius: $borderRad;
         background-color: $keyColor;
         border: none;
-        margin-bottom: 20px;
+        
+    
     }
 }
 
@@ -147,4 +140,12 @@ nav2 {
 }
 main {
     background-color: $mainColor;
+}
+nav{
+    border-radius: $borderRad;
+    box-shadow: $shadow;
+}
+//galeria
+.size__foto {
+    width: 420px;
 }
