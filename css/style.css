@@ -7894,7 +7894,7 @@ p {
 #navegacion {
   background-color: rgba(255, 202, 88, 0.884); }
   #navegacion nav {
-    background-color: #caa748;
+    background-color: rgba(255, 202, 88, 0.884);
     box-shadow: 8px 8px 8px 8px rgba(97, 84, 59, 0.7);
     border-radius: 10px; }
   #navegacion .fotos img {
@@ -7977,7 +7977,8 @@ main {
 
 nav {
   border-radius: 10px;
-  box-shadow: 8px 8px 8px 8px rgba(97, 84, 59, 0.7); }
+  box-shadow: 8px 8px 8px 8px rgba(97, 84, 59, 0.7);
+  background-color: rgba(255, 202, 88, 0.884); }
 
 .size__foto {
   width: 420px; }
