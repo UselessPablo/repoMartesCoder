@@ -1,0 +1,7 @@
+Seo
+ <meta name="description" content="pagina principal, menu a secciones">
+    <meta name="author" content="Pablo A.">
+    <meta name="keywords" content="ceramica, vitrofusion, compras online, macetas, mates, bandejas ">
+    <meta name="robots" content="index, follow">
+
+Descripción de cada sección, autor, uso de keywords y uso de follow, para que se recorra las páginas adecuadamente.
