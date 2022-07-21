@@ -7839,12 +7839,12 @@ html {
   font-size: 82.5%; }
 
 h1, .h1 {
-  box-shadow: 8px 8px 8px 8px rgba(97, 84, 59, 0.7);
+  box-shadow: 2px 8px 2px 4px rgba(54, 119, 99, 0.432);
   border-radius: 10px;
   background-color: rgba(63, 151, 135, 0.932);
   font-family: "Lobster", sans-serif;
   text-align: center;
-  padding-bottom: 7px;
+  padding-bottom: 10px;
   padding-top: 10px;
   margin-bottom: 20px;
   margin-top: 5px;
@@ -7895,7 +7895,7 @@ p {
   background-color: rgba(176, 250, 255, 0.966); }
   #navegacion nav {
     background-color: rgba(97, 209, 162, 0.884);
-    box-shadow: 8px 8px 8px 8px rgba(97, 84, 59, 0.7);
+    box-shadow: 2px 8px 2px 4px rgba(54, 119, 99, 0.432);
     border-radius: 10px; }
   #navegacion .fotos img {
     max-width: 140px;
@@ -7986,11 +7986,11 @@ main {
   background-color: rgba(63, 151, 135, 0.932);
   border-radius: 10px;
   margin-bottom: 14px;
-  box-shadow: 8px 8px 8px 8px rgba(97, 84, 59, 0.7); }
+  box-shadow: 2px 8px 2px 4px rgba(54, 119, 99, 0.432); }
 
 nav {
   border-radius: 10px;
-  box-shadow: 8px 8px 8px 8px rgba(97, 84, 59, 0.7);
+  box-shadow: 2px 8px 2px 4px rgba(54, 119, 99, 0.432);
   background-color: rgba(97, 209, 162, 0.884); }
 
 .size__foto {
@@ -8041,4 +8041,4 @@ footer {
 
 section {
   border-radius: 10px;
-  box-shadow: 8px 8px 8px 8px rgba(97, 84, 59, 0.7); }
+  box-shadow: 2px 8px 2px 4px rgba(54, 119, 99, 0.432); }
