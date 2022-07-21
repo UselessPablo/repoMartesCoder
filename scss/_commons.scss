@@ -29,16 +29,19 @@ h2 {
 	font-weight: $bolder;
 	text-align: center;
 }
+
 h3 {
 	color: $black;
 	margin-top: 25px;
 	padding-bottom: 55px;
+	padding-top: 24px;
 	font-family: $secondaryFont;
 	font-size: $textMd;
 	font-weight: $bolder;
 	text-align: center;
-	background-color: $secondaryColor;
+	
 }
+
 body {
 	background-color: $secondaryColor;
 	margin: 0;

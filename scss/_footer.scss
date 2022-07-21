@@ -14,7 +14,9 @@ footer {
             margin-top: 20px;
            
         }
-        
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-right: 8px;
         display: flex;
         align-content: space-around;
         justify-content: center;
@@ -64,5 +66,5 @@ section
     {
         border-radius: $borderRad;
         box-shadow: $shadow;
-   
+    
 }

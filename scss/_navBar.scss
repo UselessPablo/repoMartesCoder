@@ -1,7 +1,7 @@
 // Nesting
 
 #navegacion {
-    background-color: $navColor;
+    background-color: $secondaryColor;
 
   
     nav {
@@ -91,19 +91,25 @@
 //productos
 
 #productos {
-    figure {
-        
+    section{
+        display: flex;
+        flex-direction: column;
+    
+    figure {    
     img {
-    
-        max-width: 250px;
-        max-height: 250px;
-    
+        position: relative;
+        max-width: 75%;  
     }
     figcaption {
-        
+            display: flex;
             font-size: $textXb;
-        
-    }
+            font-family: $primaryFont;
+            justify-content: center;
+            align-items: center;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+}
 }
 }
 .form2 {
@@ -112,7 +118,7 @@
     padding-bottom: 10px;
 section2 {
     justify-content: center;
-
+    padding-bottom: 10px ;
     p{
         font-size:$textXb;
     }
@@ -129,10 +135,14 @@ section2 {
     p {
         font-family: $primaryFont;
         font-size: $textBg;
+        padding-bottom: 10px;
     }
 }
 main {
     background-color: $mainColor;
+    border-radius: $borderRad;
+    margin-bottom: 14px;
+    box-shadow: $shadow;
 }
 nav{
     border-radius: $borderRad;
