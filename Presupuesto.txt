@@ -1,0 +1,25 @@
+Presupuesto de Página web Huma brc.
+
+
+ -      -      -           - Horas -  - P. unitario -           - Total Pesos -
+
+- Diseño y maquetación      144           400				  $ 57.600
+- Seo y posicionamiento								  $ 4500
+     oránico.
+- Git, Sass, y Visual SC.							  $ 2500
+- Host + dominio 									  $ 8000
+
+- Actualizaciones y mantenimiento (precio por hora trabajada).
+- Licencia y propiedad intelectual 						  $ 8000
+
+									Total:        $ 80600
+
+Forma de pago, 50% para iniciar el trabajo, el otro 50% al terminar el mismo.
+
+Plazo de entrega, dependiendo del nuevo proyecto, analizar dificultades y complejidad de lo que se pide.
+
+
+
+
+
+
