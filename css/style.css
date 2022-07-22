@@ -8034,7 +8034,6 @@ footer {
 
 .iframe {
   display: flex;
-  background-color: rgba(97, 84, 59, 0.827);
   grid-area: iframe;
   justify-content: center;
   margin: 10px 10px 10px 10px; }
