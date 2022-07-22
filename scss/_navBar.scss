@@ -3,7 +3,6 @@
 #navegacion {
     background-color: $secondaryColor;
 
-  
     nav {
         background-color: $navColor;
         box-shadow: $shadow;
@@ -22,39 +21,42 @@
 
     ul {
         display: flex;
+
         li {
             display: flex;
             align-content: space-around;
+
             a {
                 @include disp-flex-col;
+
                 p {
                     font-style: $secondaryFont;
                     font-weight: $bolder;
                 }
             }
         }
-
     }
 
     @keyframes anime {
         0% {
             background-color: map-get($map: $paleta, $key: 'uno');
         }
+
         25% {
             background-color: map-get($map: $paleta, $key: 'dos');
         }
+
         75% {
             background-color: map-get($map: $paleta, $key: 'tres');
         }
+
         100% {
             background-color: map-get($map: $paleta, $key: 'cuatro');
         }
     }
 }
 
-    //nosotros//
-
-
+//nosotros//
 
 .texto__nos {
     p {
@@ -79,54 +81,59 @@
     border-radius: $borderRad;
     width: auto;
     border-style: none;
-   button {
+
+    button {
         border-radius: $borderRad;
-        background-color: $keyColor;
+        background-color: $white;
         border: none;
         width: auto;
-    
+
     }
 }
 
 //productos
 
 #productos {
-    section{
+    section {
         display: flex;
         flex-direction: column;
-    
-    figure {    
-    img {
-        position: relative;
-        max-width: 75%;  
-    }
-    figcaption {
-            display: flex;
-            font-size: $textXb;
-            font-family: $primaryFont;
-            justify-content: center;
-            align-items: center;
-            margin-left: 5px;
-            margin-right: 5px;
+
+        figure {
+            img {
+                position: relative;
+                max-width: 75%;
+            }
+
+            figcaption {
+                display: flex;
+                font-size: $textXb;
+                font-family: $primaryFont;
+                justify-content: center;
+                align-items: center;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
         }
+    }
 }
-}
-}
+
 .form2 {
     justify-content: center;
     display: flex;
     padding-bottom: 10px;
-section2 {
-    justify-content: center;
-    padding-bottom: 10px ;
-    p{
-        font-size:$textXb;
+
+    section2 {
+        justify-content: center;
+        padding-bottom: 10px;
+
+        p {
+            font-size: $textXb;
+        }
     }
 }
-}
-
 
 //contacto
+
 .contact__contact {
 
     margin-top: 20px;
@@ -138,18 +145,22 @@ section2 {
         padding-bottom: 10px;
     }
 }
+
 main {
     background-color: $mainColor;
     border-radius: $borderRad;
     margin-bottom: 14px;
     box-shadow: $shadow;
 }
-nav{
+
+nav {
     border-radius: $borderRad;
     box-shadow: $shadow;
     background-color: $navColor;
 }
+
 //galeria
+
 .size__foto {
     width: 420px;
 }

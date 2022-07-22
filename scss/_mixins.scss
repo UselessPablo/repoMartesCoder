@@ -18,12 +18,12 @@ ul{
     }
     }
 }
+
 .ul__class {
     @extend ul
 }
 
 //mixins
-
 
 @mixin disp-flex-col () {
     display: flex;
@@ -31,15 +31,7 @@ ul{
     justify-content: center;
     
 }
-//maps
 
-$paleta:(
-    
-    'uno': #fae1ab,
-    "dos": #f3cc78,
-    "tres": #ddb765,
-    "cuatro": #c59c42,
-)
 
 
 

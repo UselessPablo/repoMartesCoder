@@ -1,31 +1,29 @@
 footer {
 
-    
-    
     background-color: $mainColor;
     align-items: center;
     border-radius: $borderRad;
     justify-content: center;
 
-
     section {
-        @media (min-width: 768px) and (max-width: 991px){
+        @media (min-width: 768px) and (max-width: 991px) {
             flex-direction: column;
             margin-top: 20px;
-           
+
         }
+
         margin-top: 20px;
         margin-bottom: 15px;
         margin-right: 8px;
         display: flex;
         align-content: space-around;
         justify-content: center;
+
         .hov {
             &:hover {
                 transform: translateY(2.3px);
                 transition: 0.2s;
             }
-
         }
 
         p {
@@ -57,13 +55,10 @@ footer {
     display: flex;
     grid-area: iframe;
     justify-content: center;
-   margin: 10px 10px 10px 10px;
-
+    margin: 10px 10px 10px 10px;
 }
 
-section 
-    {
-        border-radius: $borderRad;
-        box-shadow: $shadow;
-    
+section {
+    border-radius: $borderRad;
+    box-shadow: $shadow;
 }
