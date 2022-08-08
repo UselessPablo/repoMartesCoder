@@ -7825,8 +7825,7 @@ textarea.form-control-lg {
   border-radius: 1.25rem;
   max-width: 60%;
   height: auto;
-  align-content: center;
-  margin-left: 18vw; }
+  align-content: center; }
 
 
 ul,
@@ -7958,36 +7957,38 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  #navegacion #productos .contact__contact {
+  #navegacion .contact__contact {
     margin-top: 20px;
     margin-bottom: 25px; }
-    #navegacion #productos .contact__contact p {
+    #navegacion .contact__contact p {
       font-family: "Maven Pro", sans-serif;
       font-size: "1.8rem";
       padding-bottom: 10px; }
-  #navegacion #productos main {
+  #navegacion main {
     background-color: rgba(63, 151, 135, 0.932);
     border-radius: 10px;
     margin-bottom: 14px;
     box-shadow: 2px 8px 2px 4px rgba(54, 119, 99, 0.432); }
-  #navegacion #productos nav {
+  #navegacion nav {
     border-radius: 10px;
     box-shadow: 2px 8px 2px 4px rgba(54, 119, 99, 0.432);
     background-color: rgba(97, 209, 162, 0.884); }
-  #navegacion #productos .size__foto {
+  #navegacion .size__foto {
     width: 420px; }
-  #navegacion #compras div {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    background-color: rgba(176, 250, 255, 0.966);
-    margin-bottom: 15px; }
-    #navegacion #compras div p {
-      font-family: "Quicksand", sans-serif; }
-  #navegacion #compras img {
-    max-width: 60%; }
+
+#compras div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: rgba(176, 250, 255, 0.966);
+  margin-bottom: 15px; }
+  #compras div p {
+    font-family: "Quicksand", sans-serif; }
+
+#compras img {
+  max-width: 60%; }
 
 footer {
   background-color: rgba(63, 151, 135, 0.932);
