@@ -7976,7 +7976,7 @@ nav {
   #navegacion .size__foto {
     width: 420px; }
 
-#compras div {
+#compras div, #productos div {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -7984,10 +7984,10 @@ nav {
   margin-top: 20px;
   background-color: rgba(176, 250, 255, 0.966);
   margin-bottom: 15px; }
-  #compras div p {
+  #compras div p, #productos div p {
     font-family: "Quicksand", sans-serif; }
 
-#compras img {
+#compras img, #productos img {
   max-width: 60%; }
 
 footer {
