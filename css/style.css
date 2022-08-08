@@ -7818,6 +7818,16 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 1.25rem;
+  max-width: 60%;
+  height: auto;
+  align-content: center;
+  margin-left: 18vw; }
+
 
 ul,
 .ul__class {
@@ -7945,49 +7955,39 @@ nav {
       width: auto; }
   #navegacion #productos section {
     display: flex;
-    flex-direction: column; }
-    #navegacion #productos section img {
-      max-width: 40%; }
-    #navegacion #productos section figure figcaption {
-      display: flex;
-      font-size: "2.5rem";
-      font-family: "Maven Pro", sans-serif;
-      justify-content: center;
-      align-items: center;
-      margin-left: 5px;
-      margin-right: 5px; }
-  #navegacion .contact__contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  #navegacion #productos .contact__contact {
     margin-top: 20px;
     margin-bottom: 25px; }
-    #navegacion .contact__contact p {
+    #navegacion #productos .contact__contact p {
       font-family: "Maven Pro", sans-serif;
       font-size: "1.8rem";
       padding-bottom: 10px; }
-  #navegacion main {
+  #navegacion #productos main {
     background-color: rgba(63, 151, 135, 0.932);
     border-radius: 10px;
     margin-bottom: 14px;
     box-shadow: 2px 8px 2px 4px rgba(54, 119, 99, 0.432); }
-  #navegacion nav {
+  #navegacion #productos nav {
     border-radius: 10px;
     box-shadow: 2px 8px 2px 4px rgba(54, 119, 99, 0.432);
     background-color: rgba(97, 209, 162, 0.884); }
-  #navegacion .size__foto {
+  #navegacion #productos .size__foto {
     width: 420px; }
-
-#compras div {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  background-color: rgba(176, 250, 255, 0.966);
-  margin-bottom: 15px; }
-  #compras div p {
-    font-family: "Quicksand", sans-serif; }
-
-#compras img {
-  max-width: 60%; }
+  #navegacion #compras div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgba(176, 250, 255, 0.966);
+    margin-bottom: 15px; }
+    #navegacion #compras div p {
+      font-family: "Quicksand", sans-serif; }
+  #navegacion #compras img {
+    max-width: 60%; }
 
 footer {
   background-color: rgba(63, 151, 135, 0.932);

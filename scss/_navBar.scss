@@ -86,29 +86,15 @@ nav {
 //productos
 
 #productos {
-    section {
+    
+    section{
+        
         display: flex;
         flex-direction: column;
-        img {
-            max-width: 40%;
-        }
-        figure {
-            figcaption {
-                display: flex;
-                font-size: $textXb;
-                font-family: $primaryFont;
-                justify-content: center;
-                align-items: center;
-                margin-left: 5px;
-                margin-right: 5px;
-            
-          
-
-        }
-    }
+        justify-content: center;
+        align-items: center;
+    
 }
-}
-
 //contacto
 
 .contact__contact {
@@ -160,5 +146,5 @@ nav {
         max-width: 60%;
        
     }
-
+}
 }

@@ -5,3 +5,13 @@ $btn-link-color: rgb(255, 255, 255);
 $border-radius: 1.25rem ;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 1.25rem;
+    max-width: 60%;
+    height: auto;
+    align-content: center;
+    margin-left: 18vw; }
+    
