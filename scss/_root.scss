@@ -1,1 +1,7 @@
- @import "../node_modules/bootstrap/scss/bootstrap";
+$primary: rgb(172, 225, 241);
+$btn-font-family: 'maven pro';
+$btn-border-radius: 1.4rem;
+$btn-link-color: rgb(255, 255, 255);
+$border-radius: 1.25rem ;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

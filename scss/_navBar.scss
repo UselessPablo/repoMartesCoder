@@ -37,24 +37,7 @@
         }
     }
 
-    @keyframes anime {
-        0% {
-            background-color: map-get($map: $paleta, $key: 'uno');
-        }
-
-        25% {
-            background-color: map-get($map: $paleta, $key: 'dos');
-        }
-
-        75% {
-            background-color: map-get($map: $paleta, $key: 'tres');
-        }
-
-        100% {
-            background-color: map-get($map: $paleta, $key: 'cuatro');
-        }
-    }
-}
+   
 
 //nosotros//
 
@@ -77,10 +60,13 @@
 }
 
 .btn2 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     border-radius: $borderRad;
     width: auto;
     border-style: none;
+    
 
     button {
         border-radius: $borderRad;
@@ -163,4 +149,24 @@ nav {
 
 .size__foto {
     width: 420px;
+}}
+#compras{
+    div{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+        background-color: $secondaryColor;
+      margin-bottom: 15px;  
+        p{
+            font-family: $secondaryFont;
+        }
+}
+    
+    img{
+        max-width: 60%;
+       
+    }
+
 }
