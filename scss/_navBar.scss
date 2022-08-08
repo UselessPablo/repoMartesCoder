@@ -1,5 +1,11 @@
 // Nesting
 
+nav {
+    background-color: $navColor;
+    box-shadow: $shadow;
+    border-radius: $borderRad;
+}
+
 #navegacion {
     background-color: $secondaryColor;
 
@@ -83,13 +89,10 @@
     section {
         display: flex;
         flex-direction: column;
-
+        img {
+            max-width: 40%;
+        }
         figure {
-            img {
-                position: relative;
-                max-width: 75%;
-            }
-
             figcaption {
                 display: flex;
                 font-size: $textXb;
@@ -98,24 +101,12 @@
                 align-items: center;
                 margin-left: 5px;
                 margin-right: 5px;
-            }
+            
+          
+
         }
     }
 }
-
-.form2 {
-    justify-content: center;
-    display: flex;
-    padding-bottom: 10px;
-
-    section2 {
-        justify-content: center;
-        padding-bottom: 10px;
-
-        p {
-            font-size: $textXb;
-        }
-    }
 }
 
 //contacto
@@ -152,6 +143,7 @@ nav {
 }}
 #compras{
     div{
+        
         display: flex;
     justify-content: center;
     flex-direction: column;

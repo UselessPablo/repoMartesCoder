@@ -7833,7 +7833,7 @@ ul,
         font-weight: 900; }
 
 * {
-  margin: 0;
+  margin: 1px;
   padding: 0; }
 
 html {
@@ -7892,6 +7892,11 @@ p {
   font-style: "Maven Pro", sans-serif;
   font-weight: 600; }
 
+nav {
+  background-color: rgba(97, 209, 162, 0.884);
+  box-shadow: 2px 8px 2px 4px rgba(54, 119, 99, 0.432);
+  border-radius: 10px; }
+
 #navegacion {
   background-color: rgba(176, 250, 255, 0.966); }
   #navegacion nav {
@@ -7941,9 +7946,8 @@ p {
   #navegacion #productos section {
     display: flex;
     flex-direction: column; }
-    #navegacion #productos section figure img {
-      position: relative;
-      max-width: 75%; }
+    #navegacion #productos section img {
+      max-width: 40%; }
     #navegacion #productos section figure figcaption {
       display: flex;
       font-size: "2.5rem";
@@ -7952,15 +7956,6 @@ p {
       align-items: center;
       margin-left: 5px;
       margin-right: 5px; }
-  #navegacion .form2 {
-    justify-content: center;
-    display: flex;
-    padding-bottom: 10px; }
-    #navegacion .form2 section2 {
-      justify-content: center;
-      padding-bottom: 10px; }
-      #navegacion .form2 section2 p {
-        font-size: "2.5rem"; }
   #navegacion .contact__contact {
     margin-top: 20px;
     margin-bottom: 25px; }
@@ -8045,4 +8040,4 @@ section {
   width: 60px;
   height: 60px;
   margin-right: 12px;
-  margin-botton: 8px; }
+  margin-bottom: 8px; }
